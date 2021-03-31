@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  width: 73rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  display: flex;
+  .logo_title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: aquamarine;
+  }
+  .menu {
+    text-align: center;
+  }
+}
