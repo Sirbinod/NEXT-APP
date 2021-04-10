@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(2, 47, 56);
 }
 
 a {
@@ -15,18 +16,40 @@ a {
   box-sizing: border-box;
 }
 .container {
-  width: 73rem;
+  width: 80rem;
   margin-left: auto;
   margin-right: auto;
 }
-.header {
+.image {
+  height: 42rem;
+  position: relative;
+}
+.item-show {
   display: flex;
-  .logo_title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: aquamarine;
-  }
-  .menu {
-    text-align: center;
-  }
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.item_card {
+  width: 25rem;
+  // height: 20rem;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.item_card-img {
+  height: 20rem;
+  width: 100%rem;
+  position: relative;
+}
+.item-card-tit {
+  font-size: 2rem;
+  line-height: 155%;
+  font-weight: 500;
+}
+.footer {
+  font-size: 1rem;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2rem;
 }
